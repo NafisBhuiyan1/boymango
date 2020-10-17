@@ -57,8 +57,8 @@ function draw() {
   mango3.display();
   mango4.display();
   mango5.display();
-  rect(stone.position.x,stone.position.y,20,20)
   chain.display();
+  rect(stone.position.x,stone.position.y,20,20)
 }
 
 function mouseDragged(){
